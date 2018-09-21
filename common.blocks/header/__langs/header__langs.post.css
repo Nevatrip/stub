@@ -1,0 +1,9 @@
+.header__langs{
+    display: flex;
+    justify-content: space-between;
+}
+.header__lang{
+    display: inline-block;
+    margin: 2px 5px;
+    text-transform: uppercase;
+}

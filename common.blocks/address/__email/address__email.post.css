@@ -1,0 +1,16 @@
+.address__email{
+    opacity: 1;
+    transition: opacity .3s ease;
+}
+.address__email,
+.address__email:hover,
+.address__email:active,
+.address__email:focus,
+.address__email:visited,
+.address__email.active{
+    color: inherit;
+    text-decoration: none;
+}
+.address__email:hover{
+    opacity: .7;
+}

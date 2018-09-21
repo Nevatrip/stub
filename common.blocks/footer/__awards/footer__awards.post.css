@@ -1,0 +1,19 @@
+.footer__awards{
+    display: flex;
+}
+.footer__awards-item{
+    position: relative;
+    padding-left: 74px;
+    font-size: 14px;
+    color: #d2d1d1;
+    max-width: 220px;
+}
+.footer__awards-item:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 64px;
+    height: 59px;
+    background: url(https://nevatrip.ru/assets/img/golden-light.png) no-repeat center /contain;
+}

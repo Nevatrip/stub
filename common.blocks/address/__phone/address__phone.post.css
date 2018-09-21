@@ -1,0 +1,16 @@
+.address__phone{
+    opacity: 1;
+    transition: opacity .3s ease;
+}
+.address__phone,
+.address__phone:hover,
+.address__phone:active,
+.address__phone:focus,
+.address__phone:visited,
+.address__phone.active{
+    color: inherit;
+    text-decoration: none;
+}
+.address__phone:hover{
+    opacity: .7;
+}

@@ -1,0 +1,23 @@
+.address__social{
+    display: flex;
+    justify-content: space-between;
+}
+.address__social-item{
+    display: inline-block;
+    margin: 2px 5px;
+    text-transform: uppercase;
+    opacity: 1;
+    transition: opacity .3s ease;
+}
+.address__social-item,
+.address__social-item:hover,
+.address__social-item:active,
+.address__social-item:focus,
+.address__social-item:visited,
+.address__social-item.active{
+    color: inherit;
+    text-decoration: none;
+}
+.address__social-item:hover{
+    opacity: .7;
+}

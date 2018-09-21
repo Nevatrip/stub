@@ -1,0 +1,11 @@
+html{
+    height:100%;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.page__spreader{ /*временно тут пока не подключен этот элемент к странице*/
+    flex:1;
+}
