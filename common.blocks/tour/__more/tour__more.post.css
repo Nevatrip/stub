@@ -1,0 +1,17 @@
+.tour__more{
+    display: inline-block;
+    opacity: 1;
+    transition: opacity .3s ease;
+}
+.tour__more,
+.tour__more:hover,
+.tour__more:active,
+.tour__more:focus,
+.tour__more:visited,
+.tour__more.active{
+    color: inherit;
+    text-decoration: none;
+}
+.tour__more:hover{
+    opacity: .7;
+}

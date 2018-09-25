@@ -1,0 +1,32 @@
+.tour__features{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 21px;
+}
+.tour__features-item{
+    position: relative;
+    padding-left: 39px;
+    margin-bottom: 10px;
+}
+.tour__features-item:before{
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #ffd84a;
+}
+.tour__features-item:after{
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    width: 10px;
+    height: 10px;
+    border-left: 3px solid #312d2d;
+    border-bottom: 3px solid #312d2d;
+    transform: rotate(-45deg);
+}

@@ -1,0 +1,16 @@
+.tour__name .link{
+    opacity: 1;
+    transition: opacity .3s ease;
+}
+.tour__name .link,
+.tour__name .link:hover,
+.tour__name .link:active,
+.tour__name .link:focus,
+.tour__name .link:visited,
+.tour__name .link.active{
+    color: inherit;
+    text-decoration: none;
+}
+.tour__name .link:hover{
+    opacity: .7;
+}
