@@ -1,4 +1,5 @@
 block('tour').mod('banner', true)(
+    tag()('article'),
     addAttrs()((node, ctx) => ({style: "background-image: url(" + ctx.tour.img + ")"})),
     content()((node, ctx) => {
         return [

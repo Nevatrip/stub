@@ -4,11 +4,13 @@
     padding-bottom:10px;
 }
 .features__content{
-    margin:0;
-    padding:0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top:0;
+    padding-bottom:0;
     list-style:none;
     display:flex;
-    align-items:center;
+    align-items:start;
     justify-content:space-between;
 }
 .features__item{

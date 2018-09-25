@@ -1,0 +1,29 @@
+.filter__day-tags{
+    position: relative;
+    display: block;
+    margin-bottom: 40px;
+}
+.filter__basic-tags .checkbox{
+    display: inline-block;
+    max-width: 100%;
+    margin: 0 5px 5px;
+    padding: 5px 7px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    letter-spacing: 0.3px;
+    border-radius: 3px;
+    background-color: rgba(236, 244, 248, 0.2);
+    border-width: 0;
+}
+.filter__basic-tags .checkbox__box{
+    display: none;
+}
+.filter__basic-tags .checkbox.checkbox_hovered{
+    color: #fff;
+    background-color: rgba(236, 244, 248, 0.55);
+}
+.filter__basic-tags .checkbox.checkbox_checked{
+    background-color: #ffd84a;
+    color: #323232;
+}

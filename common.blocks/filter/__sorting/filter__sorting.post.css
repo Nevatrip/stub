@@ -1,0 +1,8 @@
+.filter__sorting{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.filter__sorting .filter__content{
+    display: flex;
+    align-items: center;
+}
