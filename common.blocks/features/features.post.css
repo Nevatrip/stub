@@ -1,0 +1,35 @@
+.features{
+    position:relative;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.features__content{
+    margin:0;
+    padding:0;
+    list-style:none;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.features__item{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom:20px;
+    width:23%;
+}
+.features__item-img{
+    display:inline-block;
+    max-width:100%;
+    margin-bottom:10px;
+}
+.features__item-name{
+    font-weight:bold;
+    font-size:21px;
+    text-align:center;
+}
+.features__item-description{
+    font-size:18px;
+    text-align:center;
+}
