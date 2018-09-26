@@ -1,4 +1,4 @@
-block('tour').mod('preview', true)(
+block('tour').mod('view', 'preview')(
     tag()('article'),
     def()( (node,ctx)=>{
         node._img = ctx.img;

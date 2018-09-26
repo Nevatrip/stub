@@ -1,8 +1,8 @@
 [{
-    shouldDeps: [
-        {
-            block: 'tour',
-            mod: 'preview'
-        }
-    ]
+  shouldDeps: [
+    {
+      block: 'tour',
+      mods: { view: 'preview' }
+    }
+  ]
 }]
