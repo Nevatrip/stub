@@ -4,7 +4,7 @@ block('filter').elem('heading')(
             block: 'heading',
             mods: {size: 'xl'},
             mix: {block: node.block, elem: node.elem},
-            content: ctx
+            content: ctx.content
         }
     })
 );
