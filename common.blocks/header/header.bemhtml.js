@@ -1,6 +1,3 @@
-// var indexPage;
-// indexPage = '/';
-
 block('header')(
     tag()('header'),
     def()( ( node, ctx ) => {

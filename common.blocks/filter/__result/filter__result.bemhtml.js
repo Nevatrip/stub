@@ -2,11 +2,10 @@ block('filter').elem('result')(
     content()((node, ctx) => {
         return {
             elem: 'content',
-            mix: {block:'page', elem:'content'},
-            // content: node._result.map(item=>({
+            mix: {block: 'page', elem: 'content'},
             content: {
                 block: 'tour',
-                mods: { view: 'preview' },
+                mods: {view: 'preview'},
                 tour: {
                     name: 'Название экскурсии',
                     img: 'https://nevatrip.ru/assets/img/e/meteors/petergof.jpg',
@@ -22,7 +21,6 @@ block('filter').elem('result')(
                     urlBuy: 'https://nevatrip.ru/meteors/petergof'
                 }
             }
-            // }))
         }
     })
 );

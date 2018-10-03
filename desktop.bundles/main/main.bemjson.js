@@ -10,14 +10,14 @@ const tour = {
 
 module.exports = {
     block: 'page',
-    title: 'Шапка, навигация и футер.',
+    title: 'Главная страница',
     favicon: '/favicon.ico',
     head: [
         {elem: 'meta', attrs: {name: 'description', content: ''}},
         {elem: 'meta', attrs: {name: 'viewport', content: 'width=device-width, initial-scale=1'}},
-        {elem: 'css', url: 'header.min.css'}
+        {elem: 'css', url: 'main.min.css'}
     ],
-    scripts: [{elem: 'js', url: 'header.min.js'}],
+    scripts: [{elem: 'js', url: 'main.min.js'}],
     mods: {theme: 'islands'},
     content: [
         {
